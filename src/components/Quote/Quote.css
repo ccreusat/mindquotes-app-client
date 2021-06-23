@@ -1,0 +1,48 @@
+.quote {
+	padding: 60px;
+}
+
+.quote__title {
+	text-align: left;
+}
+
+.quote__author {
+	text-align: right;
+}
+
+.quote__createdat {
+	display: block;
+	text-align: right;
+	font-size: 12px;
+}
+
+@media only screen and (min-width: 768px) {
+	.quote-container {
+		display: grid;
+		margin: 60px auto;
+		grid-template-columns: repeat(2, 1fr);
+		max-width: 1200px;
+	}
+
+	.quote {
+		width: 600px;
+		height: 600px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.quote:nth-child(4n + 2),
+	.quote:nth-child(4n - 1) {
+		background-color: #292a31;
+	}
+
+	.quote:nth-child(4n + 2) h2,
+	.quote:nth-child(4n - 1) h2,
+	.quote:nth-child(4n + 2) p,
+	.quote:nth-child(4n - 1) p,
+	.quote:nth-child(4n + 2) em,
+	.quote:nth-child(4n - 1) em {
+		color: #fff;
+	}
+}

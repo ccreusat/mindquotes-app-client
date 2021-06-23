@@ -1,0 +1,30 @@
+.created-quote {
+  margin: 30px auto;
+  color: #292931;
+}
+
+.created-quote__text,
+.created-quote__author {
+  font-style: italic;
+}
+
+input.error {
+  border: 1px solid red;
+}
+
+a {
+  display: inline-block;
+  color: #1a1a1a;
+  text-decoration: none;
+}
+
+/* a {
+  display: inline-block;
+  margin-top: 12px;
+  color: #1a1a1a;
+  text-decoration: none;
+}
+
+a:hover {
+  border-bottom: 1px #1a1a1a solid;
+} */

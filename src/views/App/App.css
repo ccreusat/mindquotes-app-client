@@ -1,0 +1,140 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background: #fafafa;
+	color: #525258;
+	font-family: "Nunito Sans", sans-serif;
+}
+
+h1 {
+	text-align: center;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 25px;
+	line-height: 40px;
+	color: #1a1a1a;
+	max-width: 620px;
+	margin: 0 auto;
+	/* text-align: center; */
+}
+
+p {
+	letter-spacing: 1px;
+	font-size: 16px;
+	line-height: 28px;
+}
+
+form {
+	padding: 24px;
+}
+
+.button {
+	margin-top: 30px;
+	background-color: #292931;
+	color: #fff;
+	letter-spacing: 2px;
+	min-width: 200px;
+	font-size: 14px;
+	font-weight: 700;
+	border-radius: 26px;
+	transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+	-moz-osx-font-smoothing: auto;
+	-webkit-font-smoothing: subpixel-antialiased;
+	display: inline-block;
+	padding: 15px 30px;
+	line-height: 22px;
+	text-align: center;
+	text-transform: uppercase;
+	cursor: pointer;
+	border: 0;
+}
+
+.button.small {
+	padding: 12px 18px;
+	min-width: 100px;
+}
+
+.button:hover {
+	background-color: #52525a;
+}
+
+.button:focus {
+	outline: none;
+}
+
+.field {
+	margin: 20px auto;
+}
+
+label {
+	letter-spacing: 1px;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 28px;
+}
+
+input {
+	padding: 1.25em;
+	width: 100%;
+	display: block;
+	background-color: white;
+	color: #333333;
+	border-radius: 5px;
+	border: 1px solid #d5d5d5;
+	transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+input:focus {
+	outline-color: #292931;
+}
+
+.text.error {
+	color: red;
+}
+
+@media only screen and (min-width: 1200px) {
+	.container {
+		width: 1200px;
+		margin: 30px auto;
+	}
+
+	/* FORM */
+	.form {
+		width: 580px;
+		margin: auto;
+	}
+}
+
+.material-icons {
+	font-family: "Material Icons";
+	font-weight: normal;
+	font-style: normal;
+	font-size: 24px; /* Preferred icon size */
+	display: inline-block;
+	line-height: 1;
+	text-transform: none;
+	letter-spacing: normal;
+	word-wrap: normal;
+	white-space: nowrap;
+	direction: ltr;
+
+	/* Support for all WebKit browsers. */
+	-webkit-font-smoothing: antialiased;
+	/* Support for Safari and Chrome. */
+	text-rendering: optimizeLegibility;
+
+	/* Support for Firefox. */
+	-moz-osx-font-smoothing: grayscale;
+
+	/* Support for IE. */
+	font-feature-settings: "liga";
+}
