@@ -1,0 +1,32 @@
+.authors-container {
+	width: 1200px;
+	margin: 30px auto;
+}
+
+.author {
+	width: 100%;
+	padding-top: 30px;
+	padding-bottom: 15px;
+	border-top: 1px solid #e7e6e6;
+	font-size: 14px;
+}
+
+.user-page blockquote {
+	display: flex;
+	margin: 24px;
+}
+
+.user-page blockquote button {
+	background-color: transparent;
+	border: 0;
+}
+
+.user-page blockquote .material-icons-outlined {
+	color: rgb(211, 21, 21);
+	font-size: 26px;
+}
+
+.no-result {
+	padding: 24px;
+	text-align: center;
+}
